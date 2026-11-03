@@ -4,14 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css" />
-    <script src="./src/script.js" defer></script>
+    <script src="./src/script.js" defer type="module"></script>
     <title>Ax Extension</title>
   </head>
   <body>
     <main>
+      <label for="input-el">Enter text here:</label>
       <input type="text" id="input-el" placeholder="Enter text here" />
-      <button id="input-btn">Save input</button>
+      <div id="buttons">
+        <button id="input-btn">Save input</button>
+        <button id="delete-all-btn">Delete All</button>
+      </div>
       <p id="save-el">Previous entries:</p>
     </main>
   </body>
 </html>
+z
